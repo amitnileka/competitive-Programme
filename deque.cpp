@@ -25,7 +25,7 @@ int main()
 
     for(int j=0;j<(d.size()-k+1);j++)
     {
-        cout<<*std::max_element(d.begin()+j,d.begin()+j+k);
+        cout<<*std::max_element(d.begin()+j,d.begin()+j+k)<<" ";
     }
     }
     return 0;
